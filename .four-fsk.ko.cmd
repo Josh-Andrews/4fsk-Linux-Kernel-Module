@@ -1,0 +1,1 @@
+cmd_/home/pi/ece331/4fsk/four-fsk.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/ece331/4fsk/four-fsk.ko /home/pi/ece331/4fsk/four-fsk.o /home/pi/ece331/4fsk/four-fsk.mod.o ;  true
